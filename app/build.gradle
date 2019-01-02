@@ -12,7 +12,7 @@ android {
     }
     buildTypes {
         debug {
-            buildConfigField "String", 'REST_API', '""'
+            buildConfigField "String", 'REST_API', '"https://stark-spire-93433.herokuapp.com/"'
         }
         release {
             minifyEnabled false
